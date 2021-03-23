@@ -23,21 +23,35 @@ public class ClassInTask2 {
 		
 		gpa=(quiz+ midterm + resultsOfExam)/3;
 		
-		
-		if (gpa>=90) {
-			grade='A';
+		if (gpa>= 90) {
+
+			grade = 'A';
+
 		}else if (gpa>=70 && gpa<90) {
-			grade='b';
-		}else if (gpa>=50 && gpa<70) {
-			grade='c';
+
+			grade = 'B';
+
+		}else if (gpa>50 && gpa<70) {
+
+			grade= 'C';
+
 		}else {
-			grade='d';
+
+			grade= 'F';
+
 		}
+		
 		
 		System.out.println("Your grade is "+ grade);
 	
 		
-		
+
+		if (grade=='A' || grade=='B') {
+
+			System.out.println("I am happy!!");
+
+		}
+
 
 	}
 
