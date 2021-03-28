@@ -3,7 +3,7 @@ package com.class17;
 public class InstanceVariable {
 
 	int number=10; //instance variables inside class but outside main
-	String name="yo";//instance var
+	String name="yo";//instance variable
 	
 	void printNumber() {
 		System.out.println(number);
